@@ -1,9 +1,13 @@
 const express = require('express');
-const cors = require('cors')
+const cors = require('cors');
+const favicon = require('serve-favicon');
+var path = require('path');
 
 const app = express();
 // CORS (Cross-Origin Resource Sharing) used when creating API with NodeJS
 app.use(cors());
+
+app.use(favicon(path.join(__dirname, 'redblazer-small.ico')));
 
 const PORT = process.env.PORT || 8000;
 

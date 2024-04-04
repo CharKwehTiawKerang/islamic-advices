@@ -1,20 +1,17 @@
-# ⭐️Islamic advices API⭐️
+**⭐️ Islamic Advices API ⭐️**
 
-<h3>Unlock timeless wisdom with our Islamic Advices API – a treasure trove of inspirational quotes and teachings from revered figures such as Prophet Muhammad (Sallallahu Alayhi Wa Sallam) and the four Rashidun Caliphs.</h3>
+[![Badge example](https://img.shields.io/badge/language-Python-blue.svg)](https://medium.com/javascript-in-plain-english/how-to-make-custom-language-badges-for-your-profile-using-shields-io-d2aeaf016b6b)
 
-<p>use this root URL to make API request: https://hikmah.harizasyraf.com/</p>
+**Unveil timeless wisdom with the Islamic Advices API.**  
 
-<br />
-📌 How to use API:-
-<br />
+This API provides a collection of inspirational quotes and teachings from revered Islamic figures. 
 
-<h3>/advices</h3>
-Call all advices
+**API Endpoint**
 
-<br />
-<h3>/advice</h3>
-Call a random advice
+| Endpoint | Description | Example Usage |
+|---|---|---|
+| `/advices` | Retrieves all available advices. | `GET https://hikmah.harizasyraf.com/advices` |
+| `/advice` | Returns a random advice. | `GET https://hikmah.harizasyraf.com/advice` |
+| `/advice/{id}` | Retrieves a specific advice by its ID. | `GET https://hikmah.harizasyraf.com/advice/123` (replace 123 with the desired ID) |
 
-<br />
-<h3>/advice/{id}</h3>
-Call an advice with a specific id
+**Stay connected with wisdom!**
