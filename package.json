@@ -3,6 +3,7 @@
   "version": "2.0.1",
   "description": "This API provides a collection of inspirational quotes and teachings from revered figures such as Prophet Muhammad (Sallallahu Alayhi Wa Sallam) and the four Rashidun Caliphs.",
   "main": "index.js",
+  "repository": "https://github.com/CharKwehTiawKerang/islamic-advices",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
